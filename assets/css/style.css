@@ -21,6 +21,15 @@
     color:#ffffff;
 }
 
+#subheader {
+    color:#ffffff;
+    text-align: center;
+    position: relative;
+    font-size: x-large;
+    font-weight: bold;
+    top: 60%;
+}
+
 #nav-menu {
     margin: 0;
     top: 0;
