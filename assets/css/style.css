@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header-box {
@@ -121,3 +122,58 @@
     padding: 5%;
     color: #614B41;
 }
+
+.subscribe-form {
+	position: relative;
+	margin-top: 10px;
+	clear: left;
+	background: url('../images/miradores-toledo.webp') no-repeat center / cover;
+	height: 800px;
+	width: 100%;
+	text-align: left;
+}
+
+#subscribe-newsletter-form {
+	margin: 150px 5% 0 0;
+	color: #fff;
+	background-color: rgba(147, 145, 142, 0.9);
+	max-width: 360px;
+	position: absolute;
+	right: 10%;
+	padding: 50px;
+}
+
+#subscribe-newsletter-form h2, p {
+    margin-bottom: 20px;
+}
+
+.text-input {
+	background: transparent;
+	color: #ffffff;
+	width: 100%;
+	height: 20px;
+	margin: 2px 0 20px 0;
+	border: 1px solid #fafafa;
+	border-radius: 2px;
+}
+
+.text-input:hover {
+	border-color: #DDC01C;
+}
+
+.subscribe-button {
+	margin-top: 20px;
+	border-radius: 2px;
+	padding: 15px 32px 15px 32px;
+	text-align: center;
+	font-size: 100%;
+	background-color: #614B41;
+	color: #fafafa;
+	display: block;
+}
+
+.subscribe-button:hover {
+	background-color: #DDC01C;
+	color: #ffffff;
+}
+
