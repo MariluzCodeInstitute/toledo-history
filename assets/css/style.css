@@ -82,21 +82,19 @@
 .bottom-row {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 15px 30px;
     align-items: flex-end;
   }
 
 .sites-description h3 {
     align-self: center;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .sites-description p {
     margin-bottom: 20px;
     align-self: center;
-    /* float: right; */
-    /* text-align: left; */
     padding: 10px;
   }
 
