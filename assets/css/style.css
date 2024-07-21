@@ -9,7 +9,7 @@
 }
 
 img {
-    max-width:100%;
+    max-width: 100%;
 }
 
 main, footer {
@@ -91,7 +91,6 @@ main, footer {
 
 #toledo-history p {
     text-align: center;
-    
 }
 
 .cultures, .unesco-heritage {
@@ -143,7 +142,8 @@ main, footer {
 }
 
 #corpus {
-    background: linear-gradient(rgba(246, 237, 189, 0.7), rgba(246, 237, 189, 0.7)), url("../images/corpus.webp") no-repeat center / cover;}
+    background: linear-gradient(rgba(246, 237, 189, 0.7), rgba(246, 237, 189, 0.7)), url("../images/corpus.webp") no-repeat center / cover;
+}
 
 #music-festival {
     background: linear-gradient(rgba(246, 237, 189, 0.7), rgba(246, 237, 189, 0.7)), url("../images/music.webp") no-repeat center / cover;
@@ -153,83 +153,32 @@ main, footer {
     background: linear-gradient(rgba(246, 237, 189, 0.7), rgba(246, 237, 189, 0.7)), url("../images/tapas.webp") no-repeat center / cover;
 }
 
+.heading {
+    text-align: center;
+    padding: 10px 0;
+}
 
 .sites-content {
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 .sites-image {
     flex: 40%;
-    /* display: flex; */
-    /* flex-direction: column; */
+    align-self: center;
+}
+
+.sites-image img {
+    border-radius: 10%;
 }
 
 .sites-text {
     flex: 60%;
-}
-
-/* .toledo-sites li {
-    width: 80%;
-    display: flex;
-} */
-
-.sites-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 50vh;
-    align-items: center;
-}
-
-.bottom-row {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    padding: 15px 30px;
-  }
-
-.bottom-row-right {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 15px 30px;
-}
-
-.bottom-row-right img {
-    max-width: 300px;
-    max-height: 300px;
-    border-radius: 20%;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-    order: 1;
-}
-
-.bottom-row-right p {
-    order: -1;
     align-self: center;
+    padding: 10px 15px;
+    text-align: center;
 }
-
-.sites-description h3 {
-    align-self: center;
-    margin-top: 10px;
-  }
-  
-.sites-description p {
-    margin-bottom: 20px;
-    align-self: center;
-    padding: 10px;
-    width: 60%;
-  }
-
-.sites-description img {
-    max-width: 300px;
-    max-height: 300px;
-    border-radius: 20%;
-    float: left;
-    margin-bottom: 20px;
-}
-
 
 #social-networks {
     text-align: center;
@@ -322,10 +271,15 @@ main, footer {
     .sites-content {
         display: flex;
         flex-direction: row;
+        margin: 0 20px;
     }
 
     .sites-image-right {
         order: 2;
+    }
+
+    .heading {
+        padding-top: 40px;
     }
 }
 
@@ -334,4 +288,8 @@ main, footer {
         left: 65%;
         max-width: 400px;
     } 
+
+    .sites-content {
+        margin: 0 60px;
+    }
 }
