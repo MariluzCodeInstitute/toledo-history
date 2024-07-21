@@ -8,6 +8,10 @@
     color: #614B41;
 }
 
+img {
+    max-width:100%;
+}
+
 main, footer {
     background-color: #f6edbd;
 }
@@ -149,14 +153,26 @@ main, footer {
     background: linear-gradient(rgba(246, 237, 189, 0.7), rgba(246, 237, 189, 0.7)), url("../images/tapas.webp") no-repeat center / cover;
 }
 
-.row {
+
+.sites-content {
     display: flex;
+    flex-direction: column;
 }
 
-.toledo-sites li {
+.sites-image {
+    flex: 40%;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.sites-text {
+    flex: 60%;
+}
+
+/* .toledo-sites li {
     width: 80%;
     display: flex;
-}
+} */
 
 .sites-description {
     display: flex;
@@ -301,6 +317,15 @@ main, footer {
     #subscribe-newsletter-form {
         left: 50%;
         max-width: 400px;
+    }
+
+    .sites-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sites-image-right {
+        order: 2;
     }
 }
 
