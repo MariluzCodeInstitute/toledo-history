@@ -241,11 +241,12 @@ main, footer {
 
 #subscribe-newsletter-form {
 	margin: 150px 5% 0 0;
-	color: #ffffff !important;
     background-color: rgba(246, 237, 189, 0.9);
-	max-width: 360px;
+	max-width: 300px;
 	position: absolute;
-	right: 10%;
+	right: 5%;
+    left: 10%;
+    bottom: 10%;
 	padding: 50px;
 }
 
@@ -296,4 +297,16 @@ main, footer {
         display: flex;
         padding: 0 10px;
     }
+
+    #subscribe-newsletter-form {
+        left: 50%;
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #subscribe-newsletter-form {
+        left: 65%;
+        max-width: 400px;
+    } 
 }
