@@ -80,14 +80,37 @@ main, footer {
 }
 
 #toledo-history img {
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 20%;
     padding: 20px;
+    border-radius: 10%;
 }
 
 #toledo-history p {
     text-align: center;
     
+}
+
+.cultures, .unesco-heritage {
+    padding: 20px 30px;
+    display: block;
+}
+
+.cultures h3, .unesco-heritage h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.cultures img {
+    width: 50%;
+    padding: 15px;
+    border-radius: 10%;
+    margin-left: 25%;
+}
+
+.cultures p, .unesco-heritage p {
+    text-align: center;
+    margin-top: 10px;
 }
 
 .row {
