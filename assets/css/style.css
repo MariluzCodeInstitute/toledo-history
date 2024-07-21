@@ -113,6 +113,39 @@ main, footer {
     margin-top: 10px;
 }
 
+#events {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#events h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+#event-cards div {
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid;
+}
+
+#holy-week {
+    background: linear-gradient(rgba(246, 237, 189, 0.7), rgba(246, 237, 189, 0.7)), url("../images/holy-week.webp") no-repeat center / cover;
+}
+
+#corpus {
+    background: linear-gradient(rgba(246, 237, 189, 0.7), rgba(246, 237, 189, 0.7)), url("../images/corpus.webp") no-repeat center / cover;}
+
+#music-festival {
+    background: linear-gradient(rgba(246, 237, 189, 0.7), rgba(246, 237, 189, 0.7)), url("../images/music.webp") no-repeat center / cover;
+}
+
+#tapas {
+    background: linear-gradient(rgba(246, 237, 189, 0.7), rgba(246, 237, 189, 0.7)), url("../images/tapas.webp") no-repeat center / cover;
+}
+
 .row {
     display: flex;
 }
