@@ -137,6 +137,7 @@ main, footer {
     border: 2px solid;
 }
 
+/* linear-gradient property from https://css-tricks.com/tinted-images-multiple-backgrounds */
 #holy-week {
     background: linear-gradient(rgba(246, 237, 189, 0.7), rgba(246, 237, 189, 0.7)), url("../images/holy-week.webp") no-repeat center / cover;
 }
