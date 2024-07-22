@@ -4,7 +4,7 @@ Toledo history website targets not only history and travel enthusiasts but also 
 
 Toledo, Spain, is a city steeped in history and cultural significance. Once the capital of Spain, Toledo has played a pivotal role in the country’s political, religious, and cultural development. This website aims to capture and celebrate this remarkable history. This site is not necessarily built with commercial purposes in mind, or any interest to promote tourism in the area. Its main purpose is to inform and share knowledge about the culture and history of a city that has been designated UNESCO World Heritage Site.
 
-(Screenshot of Main Toledo Site)
+![image](assets/images/main-picture.png?raw=true)
 
 ## Features
 
@@ -71,4 +71,11 @@ The website is live on [this link](https://mariluzcodeinstitute.github.io/toledo
 
 ## Technologies
 
+The main languages used to build this site are HTML and CSS. The code has been implemented using GitPod and it lives on a [GitHub repository](https://github.com/MariluzCodeInstitute/toledo-history)
 
+## Credits
+
+### Content
+
+
+### Media
