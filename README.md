@@ -16,28 +16,28 @@ These are the features of this website:
   - The nav bar is present in all three pages of this site. It stays on as the user scrolls up and down the page, ensuring it is always accessible for users.
   - There are three sections/links on this bar: Home (the index page), Historical Sites (page with description and pictures of the main historical sites in Toledo) and Subscribe (page with a form to subscribe to the Toledo history newsletter)
 
-  (screenshot of the navbar)
+  ![image](assets/images/navbar.png?raw=true)
 
 - __Landing page (index)__
   - This is the main page of the site. It contains information about the history of the city and the reason why it is called the City of the Three Cultures, including pictures to support the information given. There is also a section with information about Toledo's status of UNESCO World Heritage Site.
   - It also contains a section with information about the main events that take part in this city throughout the year.
 
-(screenshot of the events cards)
+  ![image](assets/images/event-cards.png?raw=true)
 
 - __Historical sites page__
   - This page contains names, information and pictures of 8 of the main historical sites of Toledo
 
-  (screenshot of historical sites)
+  ![image](assets/images/historical-sites.png?raw=true)
 
 - __Subscribe page__
   - On this page, visitors can subscribe to the Toledo newsletter to stay updated on either history facts and info, events happening in the city or both.
 
-  (screenshot of the form)
+  ![image](assets/images/form.png?raw=true)
 
 - __Footer__
   - The footer is present on all three pages and provides links to the main social media websites where the visitors can get further information about Toledo and what is going on in the city.
 
-(screenshot of footer)
+ ![image](assets/images/footer.png?raw=true)
 
 ### Features left to implement
 
