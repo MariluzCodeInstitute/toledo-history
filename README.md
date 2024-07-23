@@ -67,7 +67,9 @@ This site is deployed to GitHub pages. The steps that were followed for its depl
   3. Set Source to 'Deploy from Branch', select Main Branch and set Folder to /(root)
   4. Click Save (it might take a few minutes for the build to finish)
 
-The website is live on [this link](https://mariluzcodeinstitute.github.io/toledo-history/index.html)
+To deploy this project locally using Gitpod, simply run `python3 -m http.server` on the Gitpod terminal and click on 'Open Browser'.
+
+Alternativelly you can clon the repo into your machine and open the html files with your chosen browser.
 
 ## Technologies
 
@@ -77,5 +79,27 @@ The main languages used to build this site are HTML and CSS. The code has been i
 
 ### Content
 
+The content related to Toledo that you can find in this site has been sourced from the following websites:
+
+- [Toledo Wikipedia entry in Spanish](https://es.wikipedia.org/wiki/Toledo)
+- [Official tourist information of Castilla La Mancha website](https://www.turismocastillalamancha.es/)
+- [Toledo tourist info website](https://turismo.toledo.es/)
+- [Mas Toledo website](https://toledoguiaturisticaycultural.com/)
+- [Toledo history in the National Geographic](https://viajes.nationalgeographic.com.es/a/ciudad-castellana-que-resume-historia-espana_17634)
 
 ### Media
+
+The pictures of Toledo sites and history come from different sources:
+
+- [Wikipedia](https://es.wikipedia.org/wiki/Toledo)
+- [Toledo article in the National Geographic](https://viajes.nationalgeographic.com.es/a/ciudad-castellana-que-resume-historia-espana_17634)
+- [Google Images](https://images.google.com/)
+
+For styling the content of this site, I got help from different sites:
+
+- [HTML Color Codes](https://htmlcolorcodes.com/) - for checking and choosing colour schemes
+- [CSS Tutorial W3Schools](https://www.w3schools.com/css/) - help with CSS styling
+- [HTML tutorial W3Schools](https://www.w3schools.com/html/) - help with HTML
+- [Flexbox guide from CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flexbox guide from mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+- [The Love Running project](https://github.com/MariluzCodeInstitute/love-running) - inspiration for the subscribe form and the event cards on this site
